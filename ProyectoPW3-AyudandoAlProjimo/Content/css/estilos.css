@@ -1,0 +1,93 @@
+.validacion{
+
+	width: 90%;height:20px ;float:right; color:#ea4335!important;
+}
+.validacion2{
+
+	width: 90%!important;height:20px !important; color:#ea4335!important;
+}
+.custom-file-input ~ .custom-file-label::after {
+    content: "Buscar";
+}
+#formmon{
+    display:none;
+}
+#formins {
+    display: none;
+}
+#formhor {
+    display: none;
+}
+.clase2 {
+    text-align: center;
+    color: #4e73df;
+    width: 100%;
+}
+
+.clase3 {
+    color: #4e73df;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.parraf {
+    color: black;
+}
+
+.botones {
+    width: 30%;
+    margin: 5% 10% 2%;
+    color: white !important;
+}
+
+.denuncia {
+    width: 50%;
+    margin: 8% 25% 2%;
+}
+
+.manito {
+    cursor: no-drop !important;
+}
+
+.maximo {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.mt-6 {
+    margin-top: 5%;
+}
+
+.fondo-color {
+    text-align: center;
+    background-color: rgba(60,191,255,0.5);
+    padding: 5%;
+}
+
+.table1 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.table2 {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.table4 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.don3 {
+    text-align: center;
+    padding: 5%;
+}
+
+.flo-left {
+    float: left;
+}

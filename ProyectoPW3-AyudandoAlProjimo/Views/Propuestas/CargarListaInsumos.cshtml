@@ -1,0 +1,48 @@
+﻿@model List<Entidades.PropuestasDonacionesInsumos>
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/PropuestasLayout.cshtml";
+}
+
+<h2>Cargar Insumos</h2>
+@using (Html.BeginForm("CargarListaInsumos", "Propuestas", FormMethod.Post))
+{
+    <div class="form-horizontal">
+
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            int c = i;
+            <div class="form-group">
+                @Html.LabelFor(model => model[c].Nombre, "Nombre del Insumo", htmlAttributes: new { @class = "control-label col-md-4" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(model => model[c].Nombre, new { @class = "form-control form-control-user" })
+                    <div class="validacion2">
+                    @Html.ValidationMessageFor(model => model[i].Nombre)
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model[c].Cantidad, "Cantidad", htmlAttributes: new { @class = "control-label col-md-4" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(model => model[c].Cantidad, new { @class = "form-control form-control-user" })
+                    <div class="validacion2">
+                        @Html.ValidationMessageFor(model => model[c].Cantidad)
+                    </div>
+
+                </div>
+            </div>
+
+            @Html.TextBoxFor(model => model[c].IdPropuestaDonacionInsumo, new { @class = "d-none", @Value = c + 1 })
+
+        }
+        <div class="row">
+            <div class="col-sm-12">
+                <button type="submit" class="btn btn-primary btn-user float-left mr-5">Registrar</button>
+                <a href="~/Home/Index"><input type="button" class="btn btn-danger" value="Cancelar"></a>
+            </div>
+        </div>
+    </div>
+}
+
+

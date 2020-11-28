@@ -1,0 +1,698 @@
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.dll.config
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.pdb
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.exe
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.exe.config
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.rsp
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.exe
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.exe.config
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.rsp
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.Managed.Core.targets
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.AppContext.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Collections.Immutable.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Console.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Compression.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.FileSystem.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Pipes.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Reflection.Metadata.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.AccessControl.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Claims.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Principal.Windows.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.ValueTuple.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XmlDocument.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XPath.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.exe
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.exe.config
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.rsp
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\VBCSCompiler.exe
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\VBCSCompiler.exe.config
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Antlr3.Runtime.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.Web.Infrastructure.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Newtonsoft.Json.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Net.Http.Formatting.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Helpers.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.WebHost.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Mvc.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Optimization.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Razor.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Deployment.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Razor.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebGrease.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\EntityFramework.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.pdb
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.dll.config
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.pdb
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.dll.config
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Newtonsoft.Json.xml
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Net.Http.Formatting.xml
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Helpers.xml
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.xml
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.WebHost.xml
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Mvc.xml
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Optimization.xml
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Razor.xml
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.xml
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Deployment.xml
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Razor.xml
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Antlr3.Runtime.pdb
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\EntityFramework.xml
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Net.Http.Formatting.resources.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Helpers.resources.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Http.resources.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Http.WebHost.resources.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Mvc.resources.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Optimization.resources.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Razor.resources.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.resources.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csprojAssemblyReference.cache
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csproj.CoreCompileInputs.cache
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csproj.CopyComplete
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.pdb
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.dll.config
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.pdb
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.exe
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.exe.config
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.rsp
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.exe
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.exe.config
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.rsp
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.AppContext.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Console.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Compression.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Pipes.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Claims.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.ValueTuple.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XPath.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.exe
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.exe.config
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.rsp
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\VBCSCompiler.exe
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Antlr3.Runtime.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Newtonsoft.Json.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Net.Http.Formatting.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Helpers.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.WebHost.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Mvc.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Optimization.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Razor.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Deployment.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Razor.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebGrease.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\EntityFramework.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.pdb
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.dll.config
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.pdb
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.dll.config
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Newtonsoft.Json.xml
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Net.Http.Formatting.xml
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Helpers.xml
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.xml
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.WebHost.xml
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Mvc.xml
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Optimization.xml
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Razor.xml
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.xml
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Deployment.xml
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Razor.xml
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Antlr3.Runtime.pdb
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\EntityFramework.xml
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Helpers.resources.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Http.resources.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Mvc.resources.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Optimization.resources.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Razor.resources.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.resources.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csprojAssemblyReference.cache
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csproj.CopyComplete
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.pdb
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.dll.config
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.pdb
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.exe
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.exe.config
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.rsp
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.exe
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.exe.config
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.rsp
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.AppContext.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Console.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Compression.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Claims.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.ValueTuple.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.exe
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.exe.config
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.rsp
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Antlr3.Runtime.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Newtonsoft.Json.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Net.Http.Formatting.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Helpers.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.WebHost.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Mvc.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Optimization.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Razor.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebGrease.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\EntityFramework.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.pdb
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.dll.config
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.pdb
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.dll.config
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Newtonsoft.Json.xml
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Net.Http.Formatting.xml
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Helpers.xml
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.xml
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.WebHost.xml
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Mvc.xml
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Optimization.xml
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Razor.xml
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.xml
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Antlr3.Runtime.pdb
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\EntityFramework.xml
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Http.resources.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Razor.resources.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csprojAssemblyReference.cache
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csproj.CopyComplete
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.dll
+C:\Users\Nicolas\Desktop\Nueva carpeta (2)\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.pdb
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.dll.config
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.pdb
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.exe
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.exe.config
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.rsp
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.exe
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.exe.config
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.rsp
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.AppContext.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Console.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Compression.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Claims.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.ValueTuple.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.exe
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.exe.config
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.rsp
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Antlr3.Runtime.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Newtonsoft.Json.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Net.Http.Formatting.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Helpers.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.WebHost.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Mvc.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Optimization.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Razor.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebGrease.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\EntityFramework.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.pdb
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.dll.config
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.pdb
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.dll.config
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Newtonsoft.Json.xml
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Net.Http.Formatting.xml
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Helpers.xml
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.xml
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.WebHost.xml
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Mvc.xml
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Optimization.xml
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Razor.xml
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.xml
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Antlr3.Runtime.pdb
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\EntityFramework.xml
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Http.resources.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Razor.resources.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csprojAssemblyReference.cache
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csproj.CopyComplete
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.pdb
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.dll.config
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.pdb
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.exe
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.exe.config
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.rsp
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.exe
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.exe.config
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.rsp
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.AppContext.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Console.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Compression.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Claims.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.ValueTuple.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.exe
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.exe.config
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.rsp
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Antlr3.Runtime.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Newtonsoft.Json.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Net.Http.Formatting.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Helpers.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.WebHost.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Mvc.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Optimization.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Razor.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebGrease.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\EntityFramework.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.pdb
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.dll.config
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.pdb
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.dll.config
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Newtonsoft.Json.xml
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Net.Http.Formatting.xml
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Helpers.xml
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.xml
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.WebHost.xml
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Mvc.xml
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Optimization.xml
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Razor.xml
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.xml
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Antlr3.Runtime.pdb
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\EntityFramework.xml
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Http.resources.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Razor.resources.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csprojAssemblyReference.cache
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csproj.CopyComplete
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.pdb
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.dll.config
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.pdb
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.exe
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.exe.config
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.rsp
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.exe
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.exe.config
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.rsp
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.AppContext.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Console.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Compression.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Pipes.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Claims.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.ValueTuple.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XPath.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.exe
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.exe.config
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.rsp
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\VBCSCompiler.exe
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Antlr3.Runtime.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Newtonsoft.Json.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Net.Http.Formatting.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Helpers.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.WebHost.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Mvc.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Optimization.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Razor.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Deployment.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Razor.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebGrease.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\EntityFramework.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.pdb
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.dll.config
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.pdb
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.dll.config
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Newtonsoft.Json.xml
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Net.Http.Formatting.xml
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Helpers.xml
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.xml
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.WebHost.xml
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Mvc.xml
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Optimization.xml
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Razor.xml
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.xml
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Deployment.xml
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Razor.xml
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Antlr3.Runtime.pdb
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\EntityFramework.xml
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Helpers.resources.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Http.resources.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Mvc.resources.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Optimization.resources.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Razor.resources.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.resources.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csprojAssemblyReference.cache
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csproj.CopyComplete
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.pdb
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.dll.config
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebApiDonaciones.pdb
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.exe
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.exe.config
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csc.rsp
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.exe
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.exe.config
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\csi.rsp
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.AppContext.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Console.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Compression.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Claims.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.ValueTuple.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.exe
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.exe.config
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\vbc.rsp
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Antlr3.Runtime.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Newtonsoft.Json.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Net.Http.Formatting.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Helpers.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.WebHost.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Mvc.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Optimization.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Razor.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\WebGrease.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\EntityFramework.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.pdb
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Entidades.dll.config
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.pdb
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Servicios.dll.config
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Newtonsoft.Json.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Net.Http.Formatting.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Helpers.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Http.WebHost.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Mvc.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Optimization.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.Razor.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Antlr3.Runtime.pdb
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\EntityFramework.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Http.resources.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.Razor.resources.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csprojAssemblyReference.cache
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.csproj.CopyComplete
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\WebApiDonaciones\obj\Debug\WebApiDonaciones.pdb

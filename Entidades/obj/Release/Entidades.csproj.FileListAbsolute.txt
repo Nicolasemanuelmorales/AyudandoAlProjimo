@@ -1,0 +1,12 @@
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Release\Entidades.dll.config
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Release\Entidades.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Release\Entidades.pdb
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Release\EntityFramework.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Release\EntityFramework.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Release\Entidades.csprojAssemblyReference.cache
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Release\Entidades.csproj.CopyComplete
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Release\Entidades.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Release\Entidades.pdb

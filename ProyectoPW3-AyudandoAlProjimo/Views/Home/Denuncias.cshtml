@@ -1,0 +1,25 @@
+﻿@model List<Entidades.DenunciaMotivo>
+<div class="row">
+
+    @foreach (var p in Model)
+    {
+        <div class="col-xl-12 col-lg-12">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">@p.FechaCreacion.ToString("MM/dd/yyyy") | @p.DescripcionMotivo </h6>
+                </div>
+                <div class="card-body">
+                    <p>@p.Comentarios</p>
+                    <hr>
+                    <div class="text-center">
+                        <a href="~/Propuestas/DetallePropuesta/@p.IdPropuesta"><button class="btn btn-success">Detalle de la Propuesta</button></a>
+                        <a href="~/Denuncias/Desestimar/@p.IdDenuncia"><button class="btn btn-danger">Desestimar</button></a>
+                        <a href="~/Denuncias/Aceptar/@p.IdDenuncia"><button class="btn btn-primary">Aceptar</button></a>
+                    </div>
+                </div>
+                </div>
+        </div>
+    }
+
+
+</div>

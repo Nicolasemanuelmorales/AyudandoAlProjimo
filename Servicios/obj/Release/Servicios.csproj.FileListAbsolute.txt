@@ -1,0 +1,15 @@
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\bin\Release\Servicios.dll.config
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\bin\Release\Servicios.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\bin\Release\Servicios.pdb
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\bin\Release\Entidades.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\bin\Release\EntityFramework.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\bin\Release\Entidades.pdb
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\bin\Release\Entidades.dll.config
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\bin\Release\EntityFramework.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\obj\Release\Servicios.csprojAssemblyReference.cache
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\obj\Release\Servicios.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\obj\Release\Servicios.csproj.CopyComplete
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\obj\Release\Servicios.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\obj\Release\Servicios.pdb

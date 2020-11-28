@@ -1,0 +1,33 @@
+﻿@model Entidades.Usuarios
+    <div class="contain mt-5">
+        @using (Html.BeginForm("ChangePassword", "Home", FormMethod.Post))
+        {
+            <div class=" row">
+                <div class="col-sm-6">
+                    <div class=" offset-sm-6"><strong>Contraseña Actual</strong></div>
+                    <input type="password" name="pass1" class="form-control form-control-sm offset-sm-6" />
+                    <div class=" offset-sm-6 validacion2 mb-2">@Html.ValidationMessage("pass1")</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class=" offset-sm-6"><strong>Contraseña Nueva</strong></div>
+                    @Html.TextBoxFor(model => model.Password, new { @class = "form-control form-control-sm offset-sm-6", Type = "password" })
+                    <div class=" offset-sm-6 validacion2 mb-2"> @Html.ValidationMessageFor(model => model.Password)</div>
+                </div>
+            </div>
+            <div class=" row mb-2">
+                <div class="col-sm-6">
+                    <div class=" offset-sm-6"><strong>Repetir Contraseña</strong></div>
+                    <input type="password" name="pass" class="form-control form-control-sm offset-sm-6" />
+                    <div class=" offset-sm-6 validacion2 mb-2" >@Html.ValidationMessage("pass")</div>
+                </div>
+            </div>
+            <div class=" row">
+                <div class="col-sm-12">
+                    <input type="submit" class="offset-sm-3 btn btn-primary" value="Aceptar">
+                    <a href="~/Home/MiPerfil"><input type="button" class="offset-sm-0 btn btn-danger" value="Cancelar"></a>
+                </div>
+            </div>
+        }
+    </div>

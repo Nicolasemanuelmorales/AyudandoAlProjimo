@@ -1,0 +1,81 @@
+C:\Users\Nicolas\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\Nicolas\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.dll
+C:\Users\Nicolas\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Nicolas\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.dll
+C:\Users\Nicolas\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nicolas\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.xml
+C:\Users\Nicolas\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nicolas\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Nicolas\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\Nicolas\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.dll
+C:\Users\Nicolas\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.pdb
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.dll.config
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.pdb
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.xml
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.dll
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.pdb
+D:\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.pdb
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.xml
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.dll
+C:\Users\david\Desktop\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.xml
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nicolas\Desktop\asdsadsasadasdasdsadasdasdasdas\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.xml
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.dll
+C:\Users\Nicolas\Desktop\proyecto pw3\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.pdb
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.pdb
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.xml
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.dll
+C:\Users\david\Documents\GitHub\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.dll
+C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Entidades\obj\Debug\Entidades.pdb

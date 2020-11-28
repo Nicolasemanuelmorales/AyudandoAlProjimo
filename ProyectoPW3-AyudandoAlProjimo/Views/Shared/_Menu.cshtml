@@ -1,0 +1,115 @@
+﻿<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+    <!-- Sidebar - Brand -->
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="~/Home/index">
+        <div class="sidebar-brand-icon rotate-n-15">
+            <i class="fas fa-laugh-wink"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Ayudando Al Prójimo</div>
+    </a>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider my-2">
+
+
+    <!-- Nav Item - Dashboard -->
+    <li class="nav-item">
+        <a class="nav-link" href="~/Home/index">
+            <i class="fas fa-fw fa-home"></i>
+            <span>HOME</span>
+        </a>
+    </li>
+
+
+    <!-- Divider -->
+    <hr class="sidebar-divider my-2">
+
+    <!-- Nav Item - Pages Collapse Menu -->
+    @{
+        if (@HttpContext.Current.Session["usuario"] != null)
+        {
+            if (@HttpContext.Current.Session["PermitirPropuesta"].ToString() != "0")
+            {
+
+                <li class="nav-item">
+                    <div class="nav-link disabled">
+                        <i class="fas fa-fw fa-plus"></i>
+                        <span>Crear Propuesta
+                        <br />(No cumple requisitos)</span>
+                    </div>
+                </li>
+            }
+            else
+            {
+                <li class="nav-item">
+                    <a class="nav-link" href="/Propuestas/Crear">
+                        <i class="fas fa-fw fa-plus"></i>
+                        <span>Crear Propuesta</span>
+                    </a>
+                </li>
+            }
+        }
+        else
+        {
+            <li class="nav-item">
+                <a class="nav-link" href="/Login/Login">
+                    <i class="fas fa-fw fa-plus"></i>
+                    <span>Crear Propuesta</span>
+                </a>
+            </li>
+        }
+    }
+
+
+    <hr class="sidebar-divider my-2">
+    @if (@HttpContext.Current.Session["usuario"] != null)
+    {
+        <li class="nav-item">
+            <a class="nav-link" href="/Propuestas/MisPropuestas">
+                <i class="fas fa-fw fa-list-ul"></i>
+                <span>Mis Propuesta</span>
+            </a>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-link" href="/Login/Login">
+                <i class="fas fa-fw fa-list-ul"></i>
+                <span>Mis Propuesta</span>
+            </a>
+        </li>
+    }
+    <hr class="sidebar-divider my-2">
+
+    @if (@HttpContext.Current.Session["usuario"] != null)
+    {
+
+
+        if (Convert.ToInt32(@HttpContext.Current.Session["Tipo"]) == 1)
+        {
+
+            <!-- Nav Item - Utilities Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="~/Home/Denuncias">
+                    <i class="fas fa-fw fa-exclamation-triangle"></i>
+                    <span>Denuncias</span>
+                </a>
+            </li>
+
+            <hr class="sidebar-divider my-2">
+        }
+        else
+        {
+
+        }
+    }
+
+    <li class="nav-item">
+        <a class="nav-link" href="#">
+            <i class="fas fa-fw fa-info"></i>
+            <span>Acerca de</span>
+        </a>
+    </li>
+    <hr class="sidebar-divider my-2">
+</ul>

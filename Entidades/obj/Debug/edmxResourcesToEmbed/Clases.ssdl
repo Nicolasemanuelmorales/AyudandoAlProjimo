@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Denuncias">
+    <Key>
+      <PropertyRef Name="IdDenuncia" />
+    </Key>
+    <Property Name="IdDenuncia" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdPropuesta" Type="int" Nullable="false" />
+    <Property Name="IdMotivo" Type="int" Nullable="false" />
+    <Property Name="Comentarios" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="IdUsuario" Type="int" Nullable="false" />
+    <Property Name="FechaCreacion" Type="datetime" Nullable="false" />
+    <Property Name="Estado" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DonacionesHorasTrabajo">
+    <Key>
+      <PropertyRef Name="IdDonacionHorasTrabajo" />
+    </Key>
+    <Property Name="IdDonacionHorasTrabajo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdPropuestaDonacionHorasTrabajo" Type="int" Nullable="false" />
+    <Property Name="IdUsuario" Type="int" Nullable="false" />
+    <Property Name="Cantidad" Type="int" Nullable="false" />
+    <Property Name="FechaCreacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DonacionesInsumos">
+    <Key>
+      <PropertyRef Name="IdDonacionInsumo" />
+    </Key>
+    <Property Name="IdDonacionInsumo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdPropuestaDonacionInsumo" Type="int" Nullable="false" />
+    <Property Name="IdUsuario" Type="int" Nullable="false" />
+    <Property Name="Cantidad" Type="int" Nullable="false" />
+    <Property Name="FechaCreacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DonacionesMonetarias">
+    <Key>
+      <PropertyRef Name="IdDonacionMonetaria" />
+    </Key>
+    <Property Name="IdDonacionMonetaria" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdPropuestaDonacionMonetaria" Type="int" Nullable="false" />
+    <Property Name="IdUsuario" Type="int" Nullable="false" />
+    <Property Name="Dinero" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="ArchivoTransferencia" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="FechaCreacion" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Motivo">
+    <Key>
+      <PropertyRef Name="IdMotivo" />
+    </Key>
+    <Property Name="IdMotivo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Propuestas">
+    <Key>
+      <PropertyRef Name="IdPropuesta" />
+    </Key>
+    <Property Name="IdPropuesta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Descripcion" Type="text" Nullable="false" />
+    <Property Name="FechaCreacion" Type="datetime" Nullable="false" />
+    <Property Name="FechaFin" Type="datetime" Nullable="false" />
+    <Property Name="TelefonoContacto" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="TipoDonacion" Type="int" Nullable="false" />
+    <Property Name="Foto" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="IdUsuarioCreador" Type="int" Nullable="false" />
+    <Property Name="Estado" Type="int" Nullable="false" />
+    <Property Name="Valoracion" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="PropuestasDonacionesHorasTrabajo">
+    <Key>
+      <PropertyRef Name="IdPropuestaDonacionHorasTrabajo" />
+    </Key>
+    <Property Name="IdPropuestaDonacionHorasTrabajo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdPropuesta" Type="int" Nullable="false" />
+    <Property Name="CantidadHoras" Type="int" Nullable="false" />
+    <Property Name="Profesion" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PropuestasDonacionesInsumos">
+    <Key>
+      <PropertyRef Name="IdPropuestaDonacionInsumo" />
+    </Key>
+    <Property Name="IdPropuestaDonacionInsumo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdPropuesta" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Cantidad" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PropuestasDonacionesMonetarias">
+    <Key>
+      <PropertyRef Name="IdPropuestaDonacionMonetaria" />
+    </Key>
+    <Property Name="IdPropuestaDonacionMonetaria" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdPropuesta" Type="int" Nullable="false" />
+    <Property Name="Dinero" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="CBU" Type="nvarchar" MaxLength="80" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PropuestasReferencias">
+    <Key>
+      <PropertyRef Name="IdReferencia" />
+    </Key>
+    <Property Name="IdReferencia" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdPropuesta" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PropuestasValoraciones">
+    <Key>
+      <PropertyRef Name="IdValoracion" />
+    </Key>
+    <Property Name="IdValoracion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdUsuario" Type="int" Nullable="false" />
+    <Property Name="IdPropuesta" Type="int" Nullable="false" />
+    <Property Name="Valoracion" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="IdUsuario" />
+    </Key>
+    <Property Name="IdUsuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" />
+    <Property Name="Apellido" Type="nvarchar" MaxLength="50" />
+    <Property Name="FechaNacimiento" Type="datetime" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="20" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Foto" Type="nvarchar" MaxLength="100" />
+    <Property Name="TipoUsuario" Type="int" Nullable="false" />
+    <Property Name="FechaCracion" Type="datetime" Nullable="false" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+    <Property Name="Token" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Denuncias_Propuestas">
+    <End Role="Propuestas" Type="Self.Propuestas" Multiplicity="1" />
+    <End Role="Denuncias" Type="Self.Denuncias" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Propuestas">
+        <PropertyRef Name="IdPropuesta" />
+      </Principal>
+      <Dependent Role="Denuncias">
+        <PropertyRef Name="IdPropuesta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Denuncias_Usuarios">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="1" />
+    <End Role="Denuncias" Type="Self.Denuncias" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="Denuncias">
+        <PropertyRef Name="IdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DonacionesHorasTrabajo_PropuestasDonacionesHorasTrabajo">
+    <End Role="PropuestasDonacionesHorasTrabajo" Type="Self.PropuestasDonacionesHorasTrabajo" Multiplicity="1" />
+    <End Role="DonacionesHorasTrabajo" Type="Self.DonacionesHorasTrabajo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PropuestasDonacionesHorasTrabajo">
+        <PropertyRef Name="IdPropuestaDonacionHorasTrabajo" />
+      </Principal>
+      <Dependent Role="DonacionesHorasTrabajo">
+        <PropertyRef Name="IdPropuestaDonacionHorasTrabajo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DonacionesHorasTrabajo_Usuarios">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="1" />
+    <End Role="DonacionesHorasTrabajo" Type="Self.DonacionesHorasTrabajo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="DonacionesHorasTrabajo">
+        <PropertyRef Name="IdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DonacionesInsumos_PropuestasDonacionesInsumos">
+    <End Role="PropuestasDonacionesInsumos" Type="Self.PropuestasDonacionesInsumos" Multiplicity="1" />
+    <End Role="DonacionesInsumos" Type="Self.DonacionesInsumos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PropuestasDonacionesInsumos">
+        <PropertyRef Name="IdPropuestaDonacionInsumo" />
+      </Principal>
+      <Dependent Role="DonacionesInsumos">
+        <PropertyRef Name="IdPropuestaDonacionInsumo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DonacionesInsumos_Usuarios">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="1" />
+    <End Role="DonacionesInsumos" Type="Self.DonacionesInsumos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="DonacionesInsumos">
+        <PropertyRef Name="IdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DonacionesMonetarias_PropuestasDonacionesMonetarias">
+    <End Role="PropuestasDonacionesMonetarias" Type="Self.PropuestasDonacionesMonetarias" Multiplicity="1" />
+    <End Role="DonacionesMonetarias" Type="Self.DonacionesMonetarias" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PropuestasDonacionesMonetarias">
+        <PropertyRef Name="IdPropuestaDonacionMonetaria" />
+      </Principal>
+      <Dependent Role="DonacionesMonetarias">
+        <PropertyRef Name="IdPropuestaDonacionMonetaria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DonacionesMonetarias_Usuarios">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="1" />
+    <End Role="DonacionesMonetarias" Type="Self.DonacionesMonetarias" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="DonacionesMonetarias">
+        <PropertyRef Name="IdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Motivo">
+    <End Role="Motivo" Type="Self.Motivo" Multiplicity="1" />
+    <End Role="Denuncias" Type="Self.Denuncias" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Motivo">
+        <PropertyRef Name="IdMotivo" />
+      </Principal>
+      <Dependent Role="Denuncias">
+        <PropertyRef Name="IdMotivo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Propuestas_Usuarios">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="1" />
+    <End Role="Propuestas" Type="Self.Propuestas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="Propuestas">
+        <PropertyRef Name="IdUsuarioCreador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PropuestasDonacionesHorasTrabajo_Propuestas">
+    <End Role="Propuestas" Type="Self.Propuestas" Multiplicity="1" />
+    <End Role="PropuestasDonacionesHorasTrabajo" Type="Self.PropuestasDonacionesHorasTrabajo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Propuestas">
+        <PropertyRef Name="IdPropuesta" />
+      </Principal>
+      <Dependent Role="PropuestasDonacionesHorasTrabajo">
+        <PropertyRef Name="IdPropuesta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PropuestasDonacionesInsumos_Propuestas">
+    <End Role="Propuestas" Type="Self.Propuestas" Multiplicity="1" />
+    <End Role="PropuestasDonacionesInsumos" Type="Self.PropuestasDonacionesInsumos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Propuestas">
+        <PropertyRef Name="IdPropuesta" />
+      </Principal>
+      <Dependent Role="PropuestasDonacionesInsumos">
+        <PropertyRef Name="IdPropuesta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PropuestasDonacionesMonetarias_Propuestas">
+    <End Role="Propuestas" Type="Self.Propuestas" Multiplicity="1" />
+    <End Role="PropuestasDonacionesMonetarias" Type="Self.PropuestasDonacionesMonetarias" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Propuestas">
+        <PropertyRef Name="IdPropuesta" />
+      </Principal>
+      <Dependent Role="PropuestasDonacionesMonetarias">
+        <PropertyRef Name="IdPropuesta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PropuestasReferencias_Propuestas">
+    <End Role="Propuestas" Type="Self.Propuestas" Multiplicity="1" />
+    <End Role="PropuestasReferencias" Type="Self.PropuestasReferencias" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Propuestas">
+        <PropertyRef Name="IdPropuesta" />
+      </Principal>
+      <Dependent Role="PropuestasReferencias">
+        <PropertyRef Name="IdPropuesta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PropuestasValoraciones_Propuestas">
+    <End Role="Propuestas" Type="Self.Propuestas" Multiplicity="1" />
+    <End Role="PropuestasValoraciones" Type="Self.PropuestasValoraciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Propuestas">
+        <PropertyRef Name="IdPropuesta" />
+      </Principal>
+      <Dependent Role="PropuestasValoraciones">
+        <PropertyRef Name="IdPropuesta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PropuestasValoraciones_Usuarios">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="1" />
+    <End Role="PropuestasValoraciones" Type="Self.PropuestasValoraciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="PropuestasValoraciones">
+        <PropertyRef Name="IdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="Denuncias" EntityType="Self.Denuncias" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DonacionesHorasTrabajo" EntityType="Self.DonacionesHorasTrabajo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DonacionesInsumos" EntityType="Self.DonacionesInsumos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DonacionesMonetarias" EntityType="Self.DonacionesMonetarias" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Motivo" EntityType="Self.Motivo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Propuestas" EntityType="Self.Propuestas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PropuestasDonacionesHorasTrabajo" EntityType="Self.PropuestasDonacionesHorasTrabajo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PropuestasDonacionesInsumos" EntityType="Self.PropuestasDonacionesInsumos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PropuestasDonacionesMonetarias" EntityType="Self.PropuestasDonacionesMonetarias" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PropuestasReferencias" EntityType="Self.PropuestasReferencias" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PropuestasValoraciones" EntityType="Self.PropuestasValoraciones" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Denuncias_Propuestas" Association="Self.FK_Denuncias_Propuestas">
+      <End Role="Propuestas" EntitySet="Propuestas" />
+      <End Role="Denuncias" EntitySet="Denuncias" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Denuncias_Usuarios" Association="Self.FK_Denuncias_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="Denuncias" EntitySet="Denuncias" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DonacionesHorasTrabajo_PropuestasDonacionesHorasTrabajo" Association="Self.FK_DonacionesHorasTrabajo_PropuestasDonacionesHorasTrabajo">
+      <End Role="PropuestasDonacionesHorasTrabajo" EntitySet="PropuestasDonacionesHorasTrabajo" />
+      <End Role="DonacionesHorasTrabajo" EntitySet="DonacionesHorasTrabajo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DonacionesHorasTrabajo_Usuarios" Association="Self.FK_DonacionesHorasTrabajo_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="DonacionesHorasTrabajo" EntitySet="DonacionesHorasTrabajo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DonacionesInsumos_PropuestasDonacionesInsumos" Association="Self.FK_DonacionesInsumos_PropuestasDonacionesInsumos">
+      <End Role="PropuestasDonacionesInsumos" EntitySet="PropuestasDonacionesInsumos" />
+      <End Role="DonacionesInsumos" EntitySet="DonacionesInsumos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DonacionesInsumos_Usuarios" Association="Self.FK_DonacionesInsumos_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="DonacionesInsumos" EntitySet="DonacionesInsumos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DonacionesMonetarias_PropuestasDonacionesMonetarias" Association="Self.FK_DonacionesMonetarias_PropuestasDonacionesMonetarias">
+      <End Role="PropuestasDonacionesMonetarias" EntitySet="PropuestasDonacionesMonetarias" />
+      <End Role="DonacionesMonetarias" EntitySet="DonacionesMonetarias" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DonacionesMonetarias_Usuarios" Association="Self.FK_DonacionesMonetarias_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="DonacionesMonetarias" EntitySet="DonacionesMonetarias" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Motivo" Association="Self.FK_Motivo">
+      <End Role="Motivo" EntitySet="Motivo" />
+      <End Role="Denuncias" EntitySet="Denuncias" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Propuestas_Usuarios" Association="Self.FK_Propuestas_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="Propuestas" EntitySet="Propuestas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PropuestasDonacionesHorasTrabajo_Propuestas" Association="Self.FK_PropuestasDonacionesHorasTrabajo_Propuestas">
+      <End Role="Propuestas" EntitySet="Propuestas" />
+      <End Role="PropuestasDonacionesHorasTrabajo" EntitySet="PropuestasDonacionesHorasTrabajo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PropuestasDonacionesInsumos_Propuestas" Association="Self.FK_PropuestasDonacionesInsumos_Propuestas">
+      <End Role="Propuestas" EntitySet="Propuestas" />
+      <End Role="PropuestasDonacionesInsumos" EntitySet="PropuestasDonacionesInsumos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PropuestasDonacionesMonetarias_Propuestas" Association="Self.FK_PropuestasDonacionesMonetarias_Propuestas">
+      <End Role="Propuestas" EntitySet="Propuestas" />
+      <End Role="PropuestasDonacionesMonetarias" EntitySet="PropuestasDonacionesMonetarias" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PropuestasReferencias_Propuestas" Association="Self.FK_PropuestasReferencias_Propuestas">
+      <End Role="Propuestas" EntitySet="Propuestas" />
+      <End Role="PropuestasReferencias" EntitySet="PropuestasReferencias" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PropuestasValoraciones_Propuestas" Association="Self.FK_PropuestasValoraciones_Propuestas">
+      <End Role="Propuestas" EntitySet="Propuestas" />
+      <End Role="PropuestasValoraciones" EntitySet="PropuestasValoraciones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PropuestasValoraciones_Usuarios" Association="Self.FK_PropuestasValoraciones_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="PropuestasValoraciones" EntitySet="PropuestasValoraciones" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

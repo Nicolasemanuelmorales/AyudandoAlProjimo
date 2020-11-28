@@ -1,0 +1,44 @@
+﻿@model List<Entidades.Auxiliares.PropuestaUsuario>
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/PropuestasLayout.cshtml";
+}
+
+<a href="~/Propuestas/Inactivas" class="mt-2  btn btn-sm btn-secondary float-right">Inactivas</a>
+<a href="~/Propuestas/Activas" class="mt-2 mr-2 btn btn-sm btn-secondary float-right">Activas</a>
+<a href="~/Propuestas/MisPropuestas" class="mt-2 mr-2 btn btn-sm btn-secondary float-right">Todas</a>
+<br />
+<br />
+<div class="row">
+
+    @foreach (var a in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card bg-light shadow-sm">
+                <img class="card-img-top mt-3" style="width:90%;height:200px; margin:0 auto;" src="~/Content/img/@a.foto" alt="Card image cap">
+                <div class="mt-2 pl-1 pr-1" style="height:45px;">
+                    <h5 class="card-title pb-3 text-center text-info">@a.nombre</h5>
+                </div>
+                <div class="card-body">
+                    <div class=" mb-1 card-text text-primary">@a.usuario</div>
+                    <div class=" mb-1 card-text text-danger">@a.fechaFin.ToString("dd/MM/yyyy")</div>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: @a.porcentajePositivo%;">
+                            @a.porcentajePositivo%
+                        </div>
+
+                        <div class="progress-bar bg-danger" style="width:@a.porcentajeNegativo%;">
+                            @a.porcentajeNegativo%
+                        </div>
+                    </div>
+                    @if (a.fechaFin > DateTime.Now)
+                    {
+                        <a href="~/Propuestas/Modificar/@a.idPropuesta" class="mt-2 btn btn-sm btn-success float-left"><i class="fas fa-angle-double-left"></i> Editar</a>
+                    }
+
+                    <a href="~/Propuestas/DetallePropuesta/@a.idPropuesta" class="mt-2 btn btn-sm btn-primary float-right">Detalle <i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,47 @@
+﻿@model Entidades.Usuarios
+<div class="contain mt-5">
+    @using (Html.BeginForm("ConfirmarPerfil", "Home", FormMethod.Post))
+    {
+        <div class=" row">
+            <div class="col-sm-6">
+                <div class=" offset-sm-6"><strong>Usuario</strong></div>
+                @Html.TextBoxFor(model => model.UserName, new { @class = "form-control form-control-sm offset-sm-6", @Value = @HttpContext.Current.Session["Nombre"], @readonly = true })
+                <div class=" offset-sm-6 validacion2"></div>
+                </div>
+            </div>
+        <div class=" row">
+            <div class="col-sm-6">
+                <div class=" offset-sm-6"><strong>Email</strong></div>
+                @Html.TextBoxFor(model => model.Email, new { @class = "form-control form-control-sm offset-sm-6", @Value = @HttpContext.Current.Session["Email"], @readonly = true })
+            <div class=" offset-sm-6 validacion2"></div>
+                </div>
+            </div>
+        <div class=" row">
+            <div class="col-sm-6">
+                <div class=" offset-sm-6"><strong>Nombre</strong></div>
+                @Html.TextBoxFor(model => model.Nombre, new { @class = "form-control form-control-sm offset-sm-6", @Value = @HttpContext.Current.Session["Name"]})
+            <div class=" offset-sm-6 validacion2"> @Html.ValidationMessageFor(model => model.Nombre) @ViewBag.Nombre</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class=" offset-sm-6"><strong>Apellido</strong></div>
+                @Html.TextBoxFor(model => model.Apellido, new { @class = "form-control form-control-sm offset-sm-6", @Value = @HttpContext.Current.Session["Apellido"]})
+            <div class=" offset-sm-6 validacion2"> @Html.ValidationMessageFor(model => model.Apellido)  @ViewBag.Apellido</div>
+            </div>
+        </div>
+        <div class=" row">
+            <div class="col-sm-6">
+                <div class="offset-sm-6"><strong>Fecha de Nacimiento</strong></div>
+                @Html.TextBoxFor(model => model.FechaNacimiento, new { @class = "form-control form-control-sm offset-sm-6", @Value = @HttpContext.Current.Session["fn"]})
+            <div class=" offset-sm-6 mb-2 validacion2">@Html.ValidationMessageFor(model => model.FechaNacimiento) @ViewBag.fn</div>
+            </div>
+        </div>
+        <div class=" row">
+            <div class="col-sm-12">
+                <input type="submit" class="offset-sm-3 btn btn-primary" value="Aceptar">
+                <a href="~/Home/MiPerfil"><input type="button" class="offset-sm-0 btn btn-danger" value="Cancelar"></a>
+            </div>
+        </div>
+    }
+</div>

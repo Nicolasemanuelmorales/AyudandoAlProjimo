@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@model List<Entidades.Auxiliares.PropuestaUsuario>
+<br />
+
+<div class="row">
+
+    @foreach (var a in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card bg-light shadow-sm">
+                <img class="card-img-top mt-3" style="width:90%;height:200px; margin:0 auto;" src="~/Content/img/@a.foto" alt="Card image cap">
+                <div class="mt-2 pl-1 pr-1" style="height:45px;">
+                    <h5 class="card-title pb-3 text-center text-info">@a.nombre</h5>
+                </div>
+                <div class="card-body">
+                    <div class=" mb-1 card-text text-primary">@a.usuario</div>
+                    <div class=" mb-1 card-text text-danger">@a.fechaFin.ToString("MM/dd/yyyy")</div>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: @a.porcentajePositivo%;">
+                            @a.porcentajePositivo%
+                        </div>
+
+                        <div class="progress-bar bg-danger" style="width:@a.porcentajeNegativo%;">
+                            @a.porcentajeNegativo%
+                        </div>
+                    </div>
+                    @if (@HttpContext.Current.Session["usuario"] != null)
+                    {
+                        <a href="~/Propuestas/DetallePropuesta/@a.idPropuesta" class="mt-2 btn btn-sm btn-primary float-right">Detalle <i class="fas fa-angle-double-right"></i></a>
+                    }
+                    else
+
+                    {
+                        <a href="~/Login/Login/@a.idPropuesta" class="mt-2 btn btn-sm btn-primary float-right">Detalle <i class="fas fa-angle-double-right"></i></a>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>

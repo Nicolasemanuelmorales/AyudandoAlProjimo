@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "MiHistorialDonaciones";
+}
+
+<h2>MiHistorialDonaciones</h2>
+
+<table class="table">
+    <thead>
+        <tr class="text-center">
+
+            <th scope="col">Fecha de Donacion</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Tipo de Donacion</th>
+            <th scope="col">Estado</th>
+            <th scope="col">Total Recaudado</th>
+            <th scope="col">Mi Donacion</th>
+            <th scope="col">Detalle Propuesta</th>
+        </tr>
+    </thead>
+    <tbody id="mostrarContenido">
+    </tbody>
+</table>
+<script>
+    $(document).ready(
+        function () {
+            var cadena;
+            var url='http://@HttpContext.Current.Request.Url.Authority/api/HistorialDonaciones/@ViewBag.Usuario'
+            $.getJSON(url, function (data) {
+                data.forEach(function (item) {
+                var p = new Date(item.FechaDonacion);
+                cadena+=`<tr  class="text-center">`
+
+                    cadena += `<td>${p.getDate()}-${p.getMonth()+1}-${p.getFullYear()}</td>`
+                    cadena += `<td>${item.Nombre}</td>`
+                    if (item.TipoDonacion==1) {
+
+                        cadena += `<td class="${item.TipoDonacion}">Monetaria</td>`
+                    }
+                    else if (item.TipoDonacion==2) {
+
+                        cadena += `<td class="${item.TipoDonacion}">Insumos</td>`
+                    }
+                    else if (item.TipoDonacion==3) {
+
+                        cadena += `<td class="${item.TipoDonacion}">Horas de Trabajo</td>`
+                    }
+                    if (item.Estado==0) {
+
+                        cadena += `<td>Abierto</td>`
+                    }
+                    if (item.Estado==1) {
+
+                        cadena += `<td>Cerrado</td>`
+                    }
+
+                    cadena += `<td>${item.TotalRecaudado}</td>`
+                    cadena += `<td>${item.MiDonacion}</td>`
+                    cadena += `<td> <a href="/Propuestas/DetallePropuesta/${item.IdPropuesta}">Ir a Propuesta</a> </td>`
+                    cadena+=`</tr>`
+
+                });
+
+
+                $("#mostrarContenido").html(cadena);
+            });
+
+        }
+    );
+</script>
+

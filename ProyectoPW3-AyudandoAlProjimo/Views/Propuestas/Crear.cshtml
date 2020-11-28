@@ -1,0 +1,160 @@
+﻿@model Entidades.Auxiliares.PropuestaAux
+
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/PropuestasLayout.cshtml";
+}
+<h2>Crear Propuesta</h2>
+@using (Html.BeginForm("Crear", "Propuestas", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="form-horizontal">
+        <div class="form-group">
+            @Html.LabelFor(model => model.Nombre, "Nombre de la propuesta", htmlAttributes: new { @class = "font-weight-bold" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Nombre, new { @class = "form-control form-control-user" })
+                <div class="validacion2">
+                    @Html.ValidationMessageFor(model => model.Nombre)
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Descripcion, "Descripcion de la propuesta", htmlAttributes: new { @class = "font-weight-bold" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Descripcion, new { @class = "form-control form-control-user" })
+                <div class="validacion2">
+                    @Html.ValidationMessageFor(model => model.Descripcion)
+                </div>
+
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.TelefonoContacto, "Telefono de contacto", htmlAttributes: new { @class = "font-weight-bold" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.TelefonoContacto, new { @class = "form-control form-control-user" })
+                <div class="validacion2">
+                    @Html.ValidationMessageFor(model => model.TelefonoContacto)
+                </div>
+            </div>
+
+        </div>
+        <div class="form-group  col-md-4 mb-2">
+            <div class="custom-file" lang="es">
+                @Html.TextBox("Foto", null, new { type = "file", @class = "custom-file-input" })
+                <div class="validacion2">
+                    @Html.ValidationMessage("Foto")
+                </div>
+                <label class="custom-file-label" for="Foto">Elegir un archivo</label>
+            </div>
+        </div>
+        <div class="form-group  ml-2">
+            @Html.LabelFor(model => model.FechaFin, "Fecha de fin", htmlAttributes: new { @class = "font-weight-bold", type = "date" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.FechaFin, new { @class = "form-control form-control-user" })
+                <div class="validacion2">
+                    @Html.ValidationMessageFor(model => model.FechaFin)
+                </div>
+            </div>
+        </div>
+        <div class="form-group ml-2">
+            @Html.LabelFor(model => model.Telefono1, "Telefono de Referencia 1", htmlAttributes: new { @class = "font-weight-bold col-md-3" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Telefono1, new { @class = "form-control form-control-user" })
+                <div class="validacion2">
+                    @Html.ValidationMessageFor(model => model.Telefono1)
+                </div>
+            </div>
+        </div>
+        <div class="form-group ml-2">
+            @Html.LabelFor(model => model.NombreRef1, "Nombre de Referencia 1", htmlAttributes: new { @class = "font-weight-bold col-md-3", })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.NombreRef1, new { @class = "form-control form-control-user" })
+                <div class="validacion2">
+                    @Html.ValidationMessageFor(model => model.NombreRef1)
+                </div>
+            </div>
+        </div>
+        <div class="form-group ml-2">
+            @Html.LabelFor(model => model.Telefono2, "Telefono de Referencia 2", htmlAttributes: new { @class = "font-weight-bold col-md-3" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Telefono2, new { @class = "form-control form-control-user" })
+                <div class="validacion2">
+                    @Html.ValidationMessageFor(model => model.Telefono2)
+                </div>
+
+            </div>
+        </div>
+        <div class="form-group ml-2">
+            @Html.LabelFor(model => model.NombreRef2, "Nombre de Referencia 2", htmlAttributes: new { @class = "font-weight-bold col-md-3" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.NombreRef2, new { @class = "form-control form-control-user" })
+                <div class="validacion2">
+                    @Html.ValidationMessageFor(model => model.NombreRef2)
+                </div>
+            </div>
+        </div>
+        <div class="form-group ">
+            <div class="col-md-10">
+                <label class="font-weight-bold" for="TipoDonacion">Tipo de Donacion:</label>
+                <select class="form-control" id="TipoDonacion" name="TipoDonacion">
+                    <option id="monetaria" value="1">Monetaria</option>
+                    <option id="insumos" value="2">De Insumos</option>
+                    <option id="horas" value="3">De Horas de Trabajo</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group ml-4" id="formmon">
+            <label for="Dinero" class="font-weight-bold ">Dinero</label>
+            <input class="form-control form-control col-md-8" type="number" name="Dinero" value="0" />
+            <div class="validacion2">
+                @Html.ValidationMessage("Dinero")
+            </div>
+            <div>
+                <label for="CBU" class="font-weight-bold">Cbu</label>
+                <input class="form-control form-control-user col-md-8" type="text" name="CBU" value="0" />
+                <div class="validacion2">
+                    @Html.ValidationMessage("CBU")
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group ml-4" id="formins">
+
+            <label for="CantidadIns" class="font-weight-bold ">Seleccione la cantidad de tipos insumos, para luego ser cargados</label>
+            <input class="form-control form-control-user col-md-8" type="number" name="CantidadIns" value="0" />
+            <div class="validacion2">
+                @Html.ValidationMessage("CantidadIns")
+            </div>
+        </div>
+
+        <div class="form-group ml-4" id="formhor">
+            <label for="CantidadHoras" class="font-weight-bold">Cantidad de Horas</label>
+            <input class="form-control form-control-user col-md-8" type="number" name="CantidadHoras" value="0" />
+            <div class="validacion2">
+                @Html.ValidationMessage("CantidadHoras")
+            </div>
+            <div>
+                <div>
+                    <div class="">
+                        <label class="font-weight-bold" for="Profesion">Profesion:</label>
+                        <select class="form-control" id="Profesion" name="Profesion">
+                            <option value="Sin Especificar">Sin Especificar</option>
+                            <option value="Carpinteria">Carpinteria</option>
+                            <option value="Contador">Contador</option>
+                            <option value="Limpieza">Limpieza</option>
+                            <option value="Cocina">Cocina</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" row">
+            <div class="col-sm-12">
+                <button type="submit" class="btn btn-primary btn-user float-left mr-5">Registrar</button>
+                <a href="~/Home/Index"><input type="button" class="btn btn-danger" value="Cancelar"></a>
+            </div>
+        </div>
+    </div>
+}
+@Scripts.Render("~/bundles/crearpropuesta")
+                   

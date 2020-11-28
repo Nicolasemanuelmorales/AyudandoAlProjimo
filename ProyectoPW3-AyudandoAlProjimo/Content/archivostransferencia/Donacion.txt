@@ -1,0 +1,82 @@
+[HttpGet]
+        public ActionResult RealizarDonacion(int id)
+        {
+            CrearDonacionAux cd = new CrearDonacionAux()
+            {
+                TipoDonacion= (_propuestaService.GetPorId(id)).TipoDonacion,
+                IdPropuesta=id
+            };
+            if (cd.TipoDonacion== (int)EnumTipoDonacion.Monetaria)
+            { decimal a= _propuestaService.TotalPropuestaMon(id);
+                decimal b= _propuestaService.CalcularTotalDonadoPropuestaMon(id); ;
+                Session["TotalMon"] = a;
+                Session["FaltanteMon"] =b;
+            }
+            else if (cd.TipoDonacion == (int)EnumTipoDonacion.Insumo)
+            {
+                Session["ListaIns"] = _propuestaService.GetPorId(cd.IdPropuesta).PropuestasDonacionesInsumos.ToList();
+                foreach (var item in _propuestaService.GetPorId(cd.IdPropuesta).PropuestasDonacionesInsumos.ToList())
+                {
+                    cd.Faltantes.Add(_propuestaService.TotalPropuestaIns(item.IdPropuestaDonacionInsumo) - _propuestaService.CalcularTotalDonadoPropuestaIns(item.IdPropuestaDonacionInsumo));
+                } 
+
+            }
+            else if (cd.TipoDonacion == (int)EnumTipoDonacion.HorasTrabajo)
+            {
+                Session["Totalh"]=_propuestaService.TotalPropuestaHrs(id);
+                Session["Profesion"]= _propuestaService.RetornarProfesionPorIdPropuesta(id);
+                Session["Faltanteh"]=(_propuestaService.TotalPropuestaHrs(id) - _propuestaService.CalcularTotalDonadoPropuestaHrs(id));
+            }
+            return View(cd);
+        }
+        [HttpPost]
+        public ActionResult RealizarDonacion(CrearDonacionAux cd)
+        {
+            if (cd.TipoDonacion == (int)EnumTipoDonacion.Monetaria)
+            {
+                if (cd.Dinero>(decimal)Session["FaltanteMon"])
+                {
+                    ModelState.AddModelError("Dinero","El dinero ingresado es mayor que el requerido");
+                    
+                }
+            }
+            if (cd.TipoDonacion == (int)EnumTipoDonacion.HorasTrabajo)
+            {
+                if (cd.CantidadHoras > (int)Session["Faltanteh"])
+                {
+                    ModelState.AddModelError("CantidadHoras", "La cantidad de horas ingresadas son mayores que las solicitadas");
+
+                }
+            }
+            if (cd.TipoDonacion == (int)EnumTipoDonacion.Insumo)
+            { 
+                List<int> f = (List<int>)Session["FaltantesIns"];
+                for (int i = 0; i < f.Count; i++)
+                {
+                    if (cd.dlistins[i].Cantidad>f[i])
+                    {
+                        ModelState.AddModelError("["+i+"].Cantidad", "La cantidad de horas ingresadas son mayores que las solicitadas");
+                    }
+                }
+                
+            }
+            if (cd.TipoDonacion==(int)EnumTipoDonacion.HorasTrabajo)
+            {
+                if (cd.CantidadHoras > (int)Session["Faltanteh"])
+                {
+                    ModelState.AddModelError("CantidadHoras", "La cantidad de horas ingresadas son mayores que las solicitadas");
+
+                }
+            }
+
+            if (!ModelState.IsValid)
+            {   
+                
+                return View(cd);
+            }
+            
+                _DonacionService.RealizarDonacion(cd);
+            
+                return RedirectToAction("Index", "Home");
+
+        }

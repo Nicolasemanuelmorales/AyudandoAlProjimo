@@ -1,0 +1,43 @@
+$ git init 
+para iniciar git
+
+
+git add algo.txt
+para agregar los archivos
+
+git commit
+para hacer un commit
+(cuando entra presiono i para agregar un mensaje y para salir presiono ESC luego escribo :wp para salir)
+
+$ git config --global user.email "david.barrionuevo96@hotmail.com"
+para agregar mi correo
+
+$ git config --global user.name "DavidBarrionuevo"
+para agregar mi nombre de usuario
+
+git log 
+para saber los nombres de los que modificaron las cosas y los commits que existen
+
+git checkout -- algo.txt 
+para volver a como estaba antes descartando los cambios
+
+git diff algo.txt 
+para saber los cambios que se hicieron hasta la version ultima
+
+git commit -m "Agregue un .gitignore"
+agrego un commit mas un mensaje
+
+git branch
+para ver las ramas que hay y en verde en la que estoy parado
+
+git add .
+agrega todos los archivos que vea
+
+$ git remote add origin https://github.com/ilovecsharp/PW2.git
+agrega un origin a mi repositorio
+
+$ git push -u origin master
+envia todo lo que hice al master
+
+git clone https://github.com/ilovecsharp/PW2.git
+copia lo que hay en ese repositorio en mi escritorio(cd desktop)

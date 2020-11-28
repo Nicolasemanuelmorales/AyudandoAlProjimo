@@ -1,0 +1,76 @@
+﻿@model Entidades.Denuncias
+
+@{
+    ViewBag.Title = "Denuncia";
+}
+
+
+@{
+    <div class="row">
+        <style>
+            h2 {
+                text-align: center;
+                color: #4e73df;
+            }
+
+            h3 {
+                color: #4e73df;
+                font-size: 25px;
+                font-weight: 800;
+            }
+
+            p {
+                color: black;
+            }
+
+            .botones {
+                width: 30%;
+                margin: 5% 10% 2%;
+            }
+
+            .denuncia {
+                width: 50%;
+                margin: 8% 25% 2%;
+            }
+
+            .manito {
+                cursor: no-drop !important;
+            }
+        </style>
+        <h2 class="col-12">Denunciar</h2>
+        <div class="col-6" style="float: left;">
+            @using (Html.BeginForm("DenunciarPropuesta", "Denuncias", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                <div class="col-md-10">
+                    <label for="IdMotivo">Motivo de la denuncia:</label>
+                    <select class="form-control" id="IdMotivo" name="IdMotivo">
+                        <option value="0" disabled selected>Seleccione un motivo</option>
+                        <option id="fraude" value="1">Fraude</option>
+                        <option id="indebida" value="2">Indebida</option>
+                        <option id="violacionDerechos" value="3">Violación de derechos</option>
+                        <option id="informacionPolitica" value="4">Contiene información política</option>
+                    </select>
+                </div>
+
+                @Html.LabelFor(model => model.Comentarios, "Comentario", htmlAttributes: new { @class = "control-label col-md-4" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(model => model.Comentarios, new { @class = "form-control form-control-user" })
+                    @Html.ValidationMessageFor(model => model.Comentarios, "", new { @class = "text-danger" })
+                </div>
+
+
+                <input type="hidden" name="IdPropuesta" value="@ViewBag.IdPropuesta" />
+                <input type="hidden" name="IdUsuario" value="@ViewBag.IdUsuario" />
+
+
+                <br />
+                <div class="col-md-10">
+                    <button type="submit" class="btn btn-primary btn-user float-left mr-5">Denunciar</button>
+                    <a href="~/Home/Index"><input type="button" class="btn btn-danger" value="Cancelar"></a>
+                </div>
+
+            }
+        </div>
+
+    </div>
+}

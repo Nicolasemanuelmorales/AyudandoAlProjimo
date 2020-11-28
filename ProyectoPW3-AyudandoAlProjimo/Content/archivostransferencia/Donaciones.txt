@@ -1,0 +1,102 @@
+
+@model Entidades.Auxiliares.CrearDonacionAux
+
+@{
+    ViewBag.Title = "RealizarDonacion";
+}
+
+
+<h2>Realizar una Donacion</h2>
+
+@using (Html.BeginForm("RealizarDonacion", "Donaciones", FormMethod.Post))
+{
+    @Html.TextBoxFor(model => model.IdPropuesta, new { @class = "d-none"})
+    @Html.TextBoxFor(model => model.TipoDonacion, new { @class = "d-none"})
+    <div class="form-group ml-0">
+        @{
+            if (Model.TipoDonacion == 1)
+            {
+                <div class="ml-1">
+                            <h6 class="font-weight-bold text-info">
+                                Donar Dinero
+                                (Faltante: @HttpContext.Current.Session["FaltanteMon"])
+                                (Total: @HttpContext.Current.Session["FaltanteMon"]))
+                            </h6>
+                </div>
+                @Html.TextBoxFor(model => model.IdUsuario, new { @class = "d-none", @Value = @HttpContext.Current.Session["usuario"] })
+                @Html.LabelFor(model => model.ArchivoTransferencia, "Archivo de Transferencia", htmlAttributes: new { @class = "control-label col-md-4" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(model => model.ArchivoTransferencia, new { @class = "form-control form-control-user" })
+                    <div class="text-danger">
+                        @Html.ValidationMessageFor(model => model.ArchivoTransferencia)
+                    </div>
+                </div>
+                @Html.Label("Dinero", "Dinero", htmlAttributes: new { @class = "control-label col-md-4" })
+                <div class="col-md-10">
+                    @Html.TextBox("Dinero",null, new { @class = "form-control form-control-user" ,@Value=0})
+                    <div class="text-danger">
+                        @Html.ValidationMessage("Dinero")
+                    </div>
+                </div>
+            }
+            if (Model.TipoDonacion == 2)
+            {
+                <div class="ml-1">
+                    <h6 class="font-weight-bold text-info">Donar Insumos</h6>
+                </div>
+                int c = 0;
+                foreach (Entidades.PropuestasDonacionesInsumos item in (List<Entidades.PropuestasDonacionesInsumos>)HttpContext.Current.Session["ListaIns"])
+                {
+                    <div class="ml-1">
+                        <h6 class="font-weight-bold text-primary">
+                            (Insumo Requerido: @item.Nombre)
+                            (Cantidad Requerida: @item.Cantidad)
+                            (Cantidad Faltante: @Model.Faltantes.ToList()[c].ToString())
+                        </h6>
+                    </div>
+
+                    @Html.TextBoxFor(model => model.dlistins[c].IdUsuario, new { @class = "d-none", @Value = @HttpContext.Current.Session["usuario"] })
+                    @Html.TextBoxFor(model => model.dlistins[c].IdPropuestaDonacionInsumo, new { @class = "d-none", @Value = item.IdPropuestaDonacionInsumo })
+
+                    @Html.LabelFor(model => model.dlistins[c].Cantidad, "Cantidad", htmlAttributes: new { @class = "control-label col-md-4" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.dlistins[c].Cantidad, new { @class = "form-control form-control-user" ,@Value=1})
+                        <div class="text-danger">
+                            @Html.ValidationMessageFor(model => model.dlistins[c].Cantidad)
+                        </div>
+                    </div>
+                    c++;
+                }
+            }
+            if (Model.TipoDonacion == 3)
+            {
+                <div class="ml-1">
+                    <h6 class="font-weight-bold text-primary">
+                        Donar Horas de Trabajo(Profesion: @HttpContext.Current.Session["Profesion"])
+                        (Horas restantes requeridas: @HttpContext.Current.Session["Faltanteh"])
+                        (Total de horas requeridas: @HttpContext.Current.Session["Totalh"])
+                    </h6>
+                </div>
+                @Html.LabelFor(model => model.CantidadHoras, "Cantidad de Horas", htmlAttributes: new { @class = "control-label col-md-4" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(model => model.CantidadHoras, new { @class = "form-control form-control-user" ,@Value=0})
+                    <div class="text-danger">
+                        @Html.ValidationMessageFor(model => model.CantidadHoras)
+                    </div>
+                </div>
+                @Html.TextBoxFor(model => model.IdUsuario, new { @class = "d-none", @Value = @HttpContext.Current.Session["usuario"] })
+
+            }
+
+        }
+    </div>
+    <div class=" row">
+        <div class="col-sm-12">
+            <button type="submit" class="btn btn-primary btn-user float-left mr-5">Registrar</button>
+            <a href="~/Home/Index"><input type="button" class="btn btn-danger" value="Cancelar"></a>
+        </div>
+    </div>
+
+}
+
+

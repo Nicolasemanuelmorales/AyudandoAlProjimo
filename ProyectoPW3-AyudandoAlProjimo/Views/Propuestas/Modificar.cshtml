@@ -1,0 +1,199 @@
+﻿@model Entidades.Auxiliares.PropuestaAux
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/PropuestasLayout.cshtml";
+}
+<h2>Modificar una Propuesta</h2>
+
+@using (Html.BeginForm("Modificar", "Propuestas", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="form-horizontal">
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Nombre, "Nombre de la propuesta", htmlAttributes: new { @class = "font-weight-bold" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Nombre, new { @class = "form-control form-control-user" })
+                <div class="validacion2">
+                    @Html.ValidationMessageFor(model => model.Nombre)
+                </div>
+            </div>
+        </div>
+        @Html.TextBoxFor(model => model.IdPropuesta, new { @class = "d-none" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Descripcion, "Descripcion de la propuesta", htmlAttributes: new { @class = "font-weight-bold" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Descripcion, new { @class = "form-control form-control-user" })
+                <div class="validacion2">
+                    @Html.ValidationMessageFor(model => model.Descripcion)
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.FechaFin, "Fecha de fin", htmlAttributes: new { @class = "font-weight-bold", type = "date" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.FechaFin, new { @class = "form-control form-control-user", @Value = Model.FechaFin.ToString("dd/MM/yyyy") })
+                <div class="validacion2">
+                    @Html.ValidationMessageFor(model => model.FechaFin)
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.TelefonoContacto, "Telefono de contacto", htmlAttributes: new { @class = "font-weight-bold" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.TelefonoContacto, new { @class = "form-control form-control-user" })
+                <div class="validacion2">
+                    @Html.ValidationMessageFor(model => model.TelefonoContacto)
+                </div>
+            </div>
+        </div>
+        <div class="form-group ml-2">
+            @Html.LabelFor(model => model.Telefono1, "Telefono de Referencia 1", htmlAttributes: new { @class = "font-weight-bold col-md-3", type = "date" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Telefono1, new { @class = "form-control form-control-user" })
+                <div class="validacion2">
+                    @Html.ValidationMessageFor(model => model.Telefono1)
+                </div>
+            </div>
+        </div>
+        <div class="form-group ml-2">
+            @Html.LabelFor(model => model.NombreRef1, "Nombre de Referencia 1", htmlAttributes: new { @class = "font-weight-bold col-md-3", })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.NombreRef1, new { @class = "form-control form-control-user" })
+                <div class="validacion2">
+                    @Html.ValidationMessageFor(model => model.NombreRef1)
+                </div>
+            </div>
+        </div>
+        <div class="form-group ml-2">
+            @Html.LabelFor(model => model.Telefono2, "Telefono de Referencia 2", htmlAttributes: new { @class = "font-weight-bold col-md-3" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Telefono2, new { @class = "form-control form-control-user" })
+                <div class="validacion2">
+                    @Html.ValidationMessageFor(model => model.Telefono2)
+                </div>
+            </div>
+        </div>
+        <div class="form-group ml-2">
+            @Html.LabelFor(model => model.NombreRef2, "Nombre de Referencia 2", htmlAttributes: new { @class = "font-weight-bold col-md-3" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.NombreRef2, new { @class = "form-control form-control-user" })
+                <div class="validacion2">
+                    @Html.ValidationMessageFor(model => model.NombreRef2)
+                </div>
+            </div>
+        </div>
+        <div class="form-group  col-md-4 mb-2">
+            <div class="custom-file" lang="es">
+                @Html.TextBox("FotoN", null, new { type = "file", @class = "custom-file-input" })
+                @Html.ValidationMessage("FotoN", "", new { @class = "validacion2" })
+                <label class="custom-file-label" for="Foto">Elegir un archivo</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                <label class="font-weight-bold" for="TipoDonacion">Tipo de Donacion:</label>
+                <select class="form-control" id="TipoDonacion" name="TipoDonacion">
+                    @{
+                        if (ViewBag.Tipo == 1)
+                        {
+                            <option id="monetaria" value="1" class="monetaria">Monetaria</option>
+                        }
+                        if (ViewBag.Tipo == 2)
+                        {
+                            <option id="insumos" value="2">De Insumos</option>
+                        }
+                        if (ViewBag.Tipo == 3)
+                        {
+                            <option id="horas" value="3">De Horas de Trabajo</option>
+                        }
+                    }
+                </select>
+            </div>
+        </div>
+        @{
+            if (ViewBag.Tipo == 1)
+            {
+                <div class="form-group ml-4">
+
+                    @Html.LabelFor(model => model.Dinero, "Dinero", htmlAttributes: new { @class = "font-weight-bold col-md-4" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.Dinero, new { @class = "form-control form-control-user", @Value = (int)Model.Dinero })
+                        <div class="validacion2">
+                            @Html.ValidationMessageFor(model => model.Dinero)
+                        </div>
+                    </div>
+                    @Html.LabelFor(model => model.CBU, "CBU", htmlAttributes: new { @class = "font-weight-bold col-md-4" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.CBU, new { @class = "form-control form-control-user", @Value = Model.CBU })
+                        <div class="validacion2">
+                            @Html.ValidationMessageFor(model => model.CBU)
+                        </div>
+                    </div>
+                </div>
+            }
+
+            if (ViewBag.Tipo == 2)
+            {
+                <div class="form-group ml-4 ">
+                    <div class="form-group ml-4 ">
+
+                        @for (int i = 0; i < ViewBag.TamListaIns; i++)
+                        {
+                            @Html.TextBoxFor(model => model.pins[i].IdPropuestaDonacionInsumo, new { @class = "d-none" })
+                            @Html.LabelFor(model => model.pins[i].Nombre, "Nombre", htmlAttributes: new { @class = "font-weight-bold col-md-4" })
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(model => model.pins[i].Nombre, new { @class = "form-control form-control-user" })
+                                <div class="validacion2">
+                                    @Html.ValidationMessageFor(model => model.pins[i].Nombre)
+                                </div>
+                            </div>
+                            @Html.LabelFor(model => model.pins[i].Cantidad, "Cantidad", htmlAttributes: new { @class = "font-weight-bold col-md-4" })
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(model => model.pins[i].Cantidad, new { @class = "form-control form-control-user" })
+                                <div class="validacion2">
+                                    @Html.ValidationMessageFor(model => model.pins[i].Cantidad)
+                                </div>
+                            </div>
+                        }
+
+                    </div>
+
+                </div>
+            }
+            if (ViewBag.Tipo == 3)
+            {
+
+                <div class="form-group ml-4">
+                    <div>
+                        <div class="ml-1">
+                            <label class="font-weight-bold" for="Profesion">Profesion:</label>
+                            <select class="form-control col-md-10" id="Profesion" name="Profesion">
+                                <option value="Sin Especificar">Sin Especificar</option>
+                                <option value="Carpinteria">Carpinteria</option>
+                                <option value="Contador">Contador</option>
+                                <option value="Limpieza">Limpieza</option>
+                                <option value="Cocina">Cocina</option>
+                            </select>
+                        </div>
+                    </div>
+                    @Html.LabelFor(model => model.CantidadHoras, "Cantidad de horas", htmlAttributes: new { @class = "font-weight-bold col-md-4" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.CantidadHoras, new { @class = "form-control form-control-user", @Value = Model.CantidadHoras })
+                        <div class="validacion2">
+                            @Html.ValidationMessageFor(model => model.CantidadHoras)
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+
+        <div class=" row">
+            <div class="col-sm-12">
+                <button type="submit" class="btn btn-primary btn-user float-left mr-5">Registrar</button>
+                <a href="~/Home/Index"><input type="button" class="btn btn-danger" value="Cancelar"></a>
+            </div>
+        </div>
+    </div>
+}
