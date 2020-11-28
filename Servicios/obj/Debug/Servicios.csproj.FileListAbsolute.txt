@@ -116,3 +116,18 @@ C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\
 C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\obj\Debug\Servicios.csproj.CopyComplete
 C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\obj\Debug\Servicios.dll
 C:\Users\Nicolas\Desktop\pw3 10-11-2019\ProyectoPW3-AyudandoAlProjimo\Servicios\obj\Debug\Servicios.pdb
+C:\Users\Nicolás\Desktop\Proyectos\AyudandoAlProjimo\Servicios\bin\Debug\Servicios.dll.config
+C:\Users\Nicolás\Desktop\Proyectos\AyudandoAlProjimo\Servicios\bin\Debug\Servicios.dll
+C:\Users\Nicolás\Desktop\Proyectos\AyudandoAlProjimo\Servicios\bin\Debug\Servicios.pdb
+C:\Users\Nicolás\Desktop\Proyectos\AyudandoAlProjimo\Servicios\bin\Debug\Entidades.dll
+C:\Users\Nicolás\Desktop\Proyectos\AyudandoAlProjimo\Servicios\bin\Debug\EntityFramework.dll
+C:\Users\Nicolás\Desktop\Proyectos\AyudandoAlProjimo\Servicios\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nicolás\Desktop\Proyectos\AyudandoAlProjimo\Servicios\bin\Debug\Entidades.pdb
+C:\Users\Nicolás\Desktop\Proyectos\AyudandoAlProjimo\Servicios\bin\Debug\Entidades.dll.config
+C:\Users\Nicolás\Desktop\Proyectos\AyudandoAlProjimo\Servicios\bin\Debug\EntityFramework.xml
+C:\Users\Nicolás\Desktop\Proyectos\AyudandoAlProjimo\Servicios\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nicolás\Desktop\Proyectos\AyudandoAlProjimo\Servicios\obj\Debug\Servicios.csprojAssemblyReference.cache
+C:\Users\Nicolás\Desktop\Proyectos\AyudandoAlProjimo\Servicios\obj\Debug\Servicios.csproj.CoreCompileInputs.cache
+C:\Users\Nicolás\Desktop\Proyectos\AyudandoAlProjimo\Servicios\obj\Debug\Servicios.csproj.CopyComplete
+C:\Users\Nicolás\Desktop\Proyectos\AyudandoAlProjimo\Servicios\obj\Debug\Servicios.dll
+C:\Users\Nicolás\Desktop\Proyectos\AyudandoAlProjimo\Servicios\obj\Debug\Servicios.pdb
