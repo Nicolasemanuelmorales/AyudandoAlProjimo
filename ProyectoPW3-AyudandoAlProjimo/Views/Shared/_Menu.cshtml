@@ -34,8 +34,10 @@
                 <li class="nav-item">
                     <div class="nav-link disabled">
                         <i class="fas fa-fw fa-plus"></i>
-                        <span>Crear Propuesta
-                        <br />(No cumple requisitos)</span>
+                        <span>
+                            Crear Propuesta
+                            <br />(No cumple requisitos)
+                        </span>
                     </div>
                 </li>
             }
@@ -105,11 +107,18 @@
         }
     }
 
-    <li class="nav-item">
-        <a class="nav-link" href="#">
-            <i class="fas fa-fw fa-info"></i>
-            <span>Acerca de</span>
-        </a>
-    </li>
-    <hr class="sidebar-divider my-2">
+    @if (@HttpContext.Current.Session["usuario"] != null)
+    {
+        if (@HttpContext.Current.Session["PermitirPropuesta"].ToString() == "1")
+        {
+            <li class="nav-item">
+                <a class="nav-link" href="/Home/MiPerfil">
+                    <i class="fas fa-ban text-danger"></i>
+                    <span >COMPLETAR PERFIL</span>
+                </a>
+            </li>
+            <hr class="sidebar-divider my-2">
+
+        }
+    }
 </ul>

@@ -34,7 +34,7 @@
 
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle ">
                         <i class="fa fa-bars"></i>
                     </button>
 
@@ -71,17 +71,6 @@
                             </form>
                         </div>
                     </li>
-
-                    <div class="topbar-divider d-none d-sm-block"></div>
-                    @if (@HttpContext.Current.Session["usuario"] != null)
-                    {
-                        if (@HttpContext.Current.Session["PermitirPropuesta"].ToString() == "1")
-                        {
-                            <li class="nav-item m-auto text-danger">
-                                <a href="/Home/MiPerfil"><button class="btn btn-danger btn-sm">Completar Perfil</button></a>
-                            </li>
-                        }
-                    }
 
                     @if (@HttpContext.Current.Session["usuario"] != null)
                     {
@@ -127,10 +116,11 @@
                     }
                     else
                     {
-                <a class="mt-2 text-primary" href="/Login/Login" >
-                    Iniciar Sesion
-                    
-                </a>
+                <li class="nav-item mt-4">
+                    <a class="mt-2 text-primary" href="/Login/Login">
+                        Iniciar Sesion
+                    </a>
+                </li>
                     }
 
                 </ul>

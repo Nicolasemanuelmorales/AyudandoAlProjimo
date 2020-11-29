@@ -6,95 +6,115 @@
 
 <link href="~/Content/css/estilos.css" rel="stylesheet" type="text/css" runat="server" />
 <div class="row">
-    <style>
-    </style>
-    <h2 class="clase2">@Model.Propuesta.Nombre</h2>
-    <div class="col-6 flo-left">
+    <h3 class="clase2 text-center" style="font-weight:700">@Model.Propuesta.Nombre</h3>
+    <div class="col-sm-12 col-md-4 text-center">
         <img class="card-img-top mt-3" src="~/Content/img/@Model.Propuesta.Foto" alt="No se pudo cargar la foto">
 
-        @if (Model.Propuesta.IdUsuarioCreador != Model.idLogeado)
-        {
-            if (@Model.voto == 1)
+        <div class="mt-3">
+            @if (Model.Propuesta.IdUsuarioCreador != Model.idLogeado)
             {
-                <h5 class="mt-6">Ya votaste que te gustó esta propuesta</h5>
-                <button class="btn btn-secondary float-left botones manito">Me gusta <i class="fas fa-angle-double-right"></i></button>
-                <a href="~/Propuestas/ValoracionPropuesta?IdUser=@Session["usuario"]&IdPropuesta=@Model.Propuesta.IdPropuesta&valoracion=2" class="btn btn-danger float-left botones">No me gusta <i class="fas fa-angle-double-right"></i></a>
-            }
-            else if (@Model.voto == 2)
-            {
-                <h5 class="mt-6">Ya votaste que no te gustó esta propuesta</h5>
-                <a href="~/Propuestas/ValoracionPropuesta?IdUser=@Session["usuario"]&IdPropuesta=@Model.Propuesta.IdPropuesta&valoracion=1" class="btn btn-success float-left botones">Me gusta <i class="fas fa-angle-double-right"></i></a>
-                <a class="btn btn-secondary float-left botones manito">No me gusta <i class="fas fa-angle-double-right"></i></a>
-            }
-            else if (@Model.voto == 3)
-            {
-                <h5 class="mt-6">Votá esta propuesta</h5>
-                <a href="~/Propuestas/ValoracionPropuesta?IdUser=@Session["usuario"]&IdPropuesta=@Model.Propuesta.IdPropuesta&valoracion=1" class="btn btn-success float-left botones">Me gusta <i class="fas fa-angle-double-right"></i></a>
-                <a href="~/Propuestas/ValoracionPropuesta?IdUser=@Session["usuario"]&IdPropuesta=@Model.Propuesta.IdPropuesta&valoracion=2" class="btn btn-danger float-left botones">No me gusta <i class="fas fa-angle-double-right"></i></a>
-            }
-        }
-
-        <h3 class="clase3">
-            Valoración:
-        </h3>
-        <div class="progress">
-            <div class="progress-bar bg-success" style="width: @Model.porcentajePositivo%;">
-                @Model.porcentajePositivo%
-            </div>
-            <div class="progress-bar bg-danger" style="width:@Model.porcentajeNegativo%;">
-                @Model.porcentajeNegativo%
-            </div>
-        </div>
-        @if (Model.Propuesta.IdUsuarioCreador != Model.idLogeado)
-        {
-            if (@Model.Denuncia >= 1)
-            {
-                <br />
-                <h5>Usted ya denunció esta propuesta</h5>
-            }
-            else
-            {
-                <a href="/Denuncias/IrADenunciar?IdPropuesta=@Model.Propuesta.IdPropuesta&IdUsuario=@Session["usuario"]" class="btn btn-warning float-left denuncia">Denunciar <i class="fas fa-angle-double-right"></i></a>
-            }
-        }
-    </div>
-    <div class="col-6 flo-left">
-        <h3 class="clase3">Descripción: </h3>
-        <p class="parraf">@Model.Propuesta.Descripcion</p>
-        <h3 class="clase3">Usuario:</h3>
-        <p class="parraf">@Model.Usuario.UserName</p>
-        <h3 class="clase3">Fecha de creación:</h3>
-        <p class="parraf">@Model.Propuesta.FechaCreacion.ToString("dd/MM/yyyy")</p>
-        <h3 class="clase3">Fecha de finalización:</h3>
-        <p class="parraf">@Model.Propuesta.FechaFin.ToString("dd/MM/yyyy")</p>
-        <h3 class="clase3">Contacto:</h3>
-        <p class="parraf">@Model.Propuesta.TelefonoContacto</p>
-        @if (Model.Propuesta.TipoDonacion == 3)
-        {<div class="fondo-color">
-                <h3 class="clase3">Donaciones de horas de trabajo requeridas:</h3>
-                <br />
-                <h4 class="text-danger">Se necesita: @Model.PropuestasDonacionesHorasTrabajo hs</h4>
-                <h4 class="text-success">Se donaron:@Model.GetDonacionesHorasTrabajo hs</h4>
-
-                @if (@Model.PropuestasDonacionesHorasTrabajo > @Model.GetDonacionesHorasTrabajo)
+                if (@Model.voto == 1)
                 {
-                    <h4 class="text-danger">Faltan: @Model.DonacionesHorasFaltantes hs</h4>
-                    if (Model.Propuesta.IdUsuarioCreador != Model.idLogeado)
-                    {
-                        <a href="~/Donaciones/RealizarDonacion/@Model.Propuesta.IdPropuesta" class="btn btn-warning float-left denuncia">Donar <i class="fas fa-angle-double-right"></i></a>
-                    }
+                    <button class="btn btn-secondary btn-sm col-3"><i class="fas fa-thumbs-up"></i></button>
+                    <a href="~/Propuestas/ValoracionPropuesta?IdUser=@Session["usuario"]&IdPropuesta=@Model.Propuesta.IdPropuesta&valoracion=2" class="btn btn-sm btn-danger col-3"><i class="fas fa-thumbs-down"></i></a>
+                }
+                else if (@Model.voto == 2)
+                {
+                    <a href="~/Propuestas/ValoracionPropuesta?IdUser=@Session["usuario"]&IdPropuesta=@Model.Propuesta.IdPropuesta&valoracion=1" class="btn btn-sm btn-success col-3"><i class="fas fa-thumbs-up"></i></a>
+                    <a class="btn btn-secondary btn-sm col-3"><i class="fa-thumbs-down"></i></a>
+                }
+                else if (@Model.voto == 3)
+                {
+                    <a href="~/Propuestas/ValoracionPropuesta?IdUser=@Session["usuario"]&IdPropuesta=@Model.Propuesta.IdPropuesta&valoracion=1" class="btn btn-sm btn-success col-3"><i class="fas fa-thumbs-up"></i></a>
+                    <a href="~/Propuestas/ValoracionPropuesta?IdUser=@Session["usuario"]&IdPropuesta=@Model.Propuesta.IdPropuesta&valoracion=2" class="btn btn-sm btn-danger col-3"><i class="fas fa-thumbs-down"></i></a>
+                }
+                if (@Model.Denuncia >= 1)
+                {
+                    <button class="btn btn-secondary btn btn-secondary btn-sm col-3"><i class="fas fa-ban"></i></button>
+
                 }
                 else
                 {
-                    <h4 class="text-success">¡Se completaron las donaciones necesarias!</h4>
+                    <a href="/Denuncias/IrADenunciar?IdPropuesta=@Model.Propuesta.IdPropuesta&IdUsuario=@Session["usuario"]" class="btn btn-warning btn-sm col-3"><i class="fas fa-ban"></i></a>
                 }
-            </div>
-        }
-        @if (Model.Propuesta.TipoDonacion == 2)
-        {
-            <h3 class="clase3">Donaciones de insumos requeridas:</h3>
+            }
+        </div>
 
-            <table class="table table1">
+
+    </div>
+    <div class="col-sm-12 col-md-8 flo-left mt-4">
+        <h6><span style="color:black;font-weight:700">Descripción: </span> <div class="mt-1"> @Model.Propuesta.Descripcion</div></h6>
+
+        <h6>
+            <span style="color:black;font-weight:700">Usuario: </span> <span style="font-size:13px">@Model.Usuario.UserName</span>
+        </h6>
+        <h6>
+            <span style="color:black;font-weight:700">Fecha de creación: </span> <span style="font-size:13px">@Model.Propuesta.FechaCreacion.ToString("dd/MM/yyyy")</span>
+        </h6>
+        <h6>
+            <span style="color:black;font-weight:700">Fecha de finalización: </span> <span style="font-size:13px">@Model.Propuesta.FechaFin.ToString("dd/MM/yyyy")</span>
+        </h6>
+        <h6>
+            <span style="color:black;font-weight:700">Contacto: </span><span style="font-size:13px">@Model.Propuesta.TelefonoContacto</span>
+        </h6>
+        <div class="progress mt-2" style="width:70%">
+            <div class="progress-bar bg-primary" style="width: @Model.porcentajePositivo%;">
+                <b>@Model.porcentajePositivo%</b>
+            </div>
+
+            <div class="progress-bar bg-gradient-light" style="width:@Model.porcentajeNegativo%; color:#6d6d6d">
+                <b>@Model.porcentajeNegativo%</b>
+            </div>
+        </div>
+    </div>
+
+    @if (Model.Propuesta.TipoDonacion == 3)
+    {
+        <div class="col-sm-12 mt-5">
+            <table class="table table-striped">
+
+                <tr>
+                    <th class="">Se necesitan </th>
+                    <th class="">@Model.PropuestasDonacionesHorasTrabajo hs</th>
+                </tr>
+
+                <tr>
+                    <th>Se donaron </th>
+                    <th>@Model.GetDonacionesHorasTrabajo hs</th>
+                </tr>
+
+                <tr>
+                    <th>Faltan </th>
+                    <th>
+                        @if (@Model.PropuestasDonacionesHorasTrabajo > @Model.GetDonacionesHorasTrabajo)
+                        {
+                            <h6 class="text-danger" style="font-weight:700">@Model.DonacionesHorasFaltantes hs</h6>
+                        }
+                        else
+                        {
+                            <h6 class="text-success">¡Se completaron las donaciones necesarias!</h6>
+                        }
+                    </th>
+
+                </tr>
+            </table>
+            @if (@Model.PropuestasDonacionesHorasTrabajo > @Model.GetDonacionesHorasTrabajo)
+            {
+                if (Model.Propuesta.IdUsuarioCreador != Model.idLogeado)
+                {
+                    <div class="text-center mt-1 mb-5">
+                        <a href="~/Donaciones/RealizarDonacion/@Model.Propuesta.IdPropuesta" class="btn btn-primary" style="width:40%">Donar <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                }
+            }
+        </div>
+    }
+
+    @if (Model.Propuesta.TipoDonacion == 2)
+    {
+        <div class="col-sm-12 mt-5">
+
+            <table class="table table1 table-striped">
 
                 <thead>
                     <tr>
@@ -116,7 +136,7 @@
                 </tbody>
             </table>
 
-            <table class="table table2">
+            <table class="table table2 table-striped">
 
                 <thead>
                     <tr>
@@ -136,12 +156,12 @@
                 </tbody>
             </table>
 
-            <table class="table table2">
+            <table class="table table2 table-striped">
 
                 <thead>
                     <tr>
 
-                        <th>Faltantes: </th>
+                        <th>Faltantes </th>
                     </tr>
                 </thead>
 
@@ -166,53 +186,54 @@
                 </tbody>
             </table>
 
-            if (Model.Propuesta.IdUsuarioCreador != Model.idLogeado)
+            @if (Model.Propuesta.IdUsuarioCreador != Model.idLogeado)
             {
-                <a href="~/Donaciones/RealizarDonacion/@Model.Propuesta.IdPropuesta" class="btn btn-warning float-left denuncia">Donar <i class="fas fa-angle-double-right"></i></a>
-            }
-        }
-
-        @if (Model.Propuesta.TipoDonacion == 1)
-        {
-            <div class="don3">
-                <h3 class="clase3">Donaciones monetarias requeridas:</h3>
-
-                <table class="table table4">
-
-                    <tr>
-                        <th class="table-danger">Se necesitan: </th>
-                        <th class="table-danger">$@Model.PropuestasDonacionesMonetarias</th>
-                    </tr>
-
-                    <tr>
-                        <th class="table-success">Se donaron: </th>
-                        <th class="table-success">$@Model.GetDonacionesMonetarias</th>
-                    </tr>
-
-                    <tr>
-                        <th class="table-info">Faltan: </th>
-                        <th class="table-info">
-                            @if (@Model.PropuestasDonacionesMonetarias > @Model.GetDonacionesMonetarias)
-                            {
-                                <h4 class="text-danger">$@Model.DonacionesMonetariasFaltantes</h4>
-                            }
-                            else
-                            {
-                                <h4 class="text-success">¡Se completaron las donaciones necesarias!</h4>
-                            }
-                        </th>
-
-                    </tr>
-                </table>
-                @if (@Model.PropuestasDonacionesMonetarias > @Model.GetDonacionesMonetarias)
-                {
-                    if (Model.Propuesta.IdUsuarioCreador != Model.idLogeado)
-                    {
-                        <a href="~/Donaciones/RealizarDonacion/@Model.Propuesta.IdPropuesta" class="btn btn-warning float-left denuncia">Donar <i class="fas fa-angle-double-right"></i></a>
-                    }
-                }
+            <div class="text-center mt-1 mb-5">
+                <a href="~/Donaciones/RealizarDonacion/@Model.Propuesta.IdPropuesta" class="btn btn-primary" style="width:40%">Donar</a>
             </div>
-        }
-    </div>
+            }
+        </div>
+    }
 
+    @if (Model.Propuesta.TipoDonacion == 1)
+    {
+        <div class="col-sm-12 mt-5">
+            <table class="table table-striped">
+
+                <tr>
+                    <th class="">Se necesitan </th>
+                    <th class="">$@Model.PropuestasDonacionesMonetarias</th>
+                </tr>
+
+                <tr>
+                    <th>Se donaron </th>
+                    <th>$@Model.GetDonacionesMonetarias</th>
+                </tr>
+
+                <tr>
+                    <th>Faltan </th>
+                    <th>
+                        @if (@Model.PropuestasDonacionesMonetarias > @Model.GetDonacionesMonetarias)
+                        {
+                            <h6 class="text-danger" style="font-weight:700">$@Model.DonacionesMonetariasFaltantes</h6>
+                        }
+                        else
+                        {
+                            <h6 class="text-success">¡Se completaron las donaciones necesarias!</h6>
+                        }
+                    </th>
+
+                </tr>
+            </table>
+            @if (@Model.PropuestasDonacionesMonetarias > @Model.GetDonacionesMonetarias)
+            {
+                if (Model.Propuesta.IdUsuarioCreador != Model.idLogeado)
+                {
+                    <div class="text-center mt-1 mb-5">
+                        <a href="~/Donaciones/RealizarDonacion/@Model.Propuesta.IdPropuesta" class="btn btn-primary" style="width:40%">Donar</a>
+                    </div>
+                }
+            }
+        </div>
+    }
 </div>
