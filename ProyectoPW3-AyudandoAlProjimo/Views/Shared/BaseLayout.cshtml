@@ -79,26 +79,26 @@
 
                                 <span class="mr-2 d-lg-inline text-gray-600 small">
                                     @if (@HttpContext.Current.Session["Nombre"] == null)
-                    {
+                                    {
                                         @HttpContext.Current.Session["Email"]
-                    }
-                    else
-                    {
+                                    }
+                                    else
+                                    {
                                         @HttpContext.Current.Session["Nombre"]
-                    }
+                                    }
                                 </span>
                                 @if (@HttpContext.Current.Session["Foto"] != null)
-                    {
+                                {
                                     <img class="img-profile rounded-circle" src="@HttpContext.Current.Session["Foto"]">
-                    }
-                    else if (@HttpContext.Current.Session["usuario"] != null)
-                    {
+                                }
+                                else if (@HttpContext.Current.Session["usuario"] != null)
+                                {
                                     <img class="img-profile rounded-circle" src="~/Content/img/avatar.png">
-                    }
-                    else
-                    {
+                                }
+                                else
+                                {
 
-                    }
+                                }
                             </a>
 
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
@@ -116,11 +116,11 @@
                     }
                     else
                     {
-                <li class="nav-item mt-4">
-                    <a class="mt-2 text-primary" href="/Login/Login">
-                        Iniciar Sesion
-                    </a>
-                </li>
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="text-primary nav-link dropdown-toggle" href="/Login/Login">
+                                Iniciar Sesion
+                            </a>
+                        </li>
                     }
 
                 </ul>

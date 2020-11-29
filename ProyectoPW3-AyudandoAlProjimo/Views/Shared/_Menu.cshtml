@@ -28,7 +28,7 @@
     @{
         if (@HttpContext.Current.Session["usuario"] != null)
         {
-            if (@HttpContext.Current.Session["PermitirPropuesta"].ToString() != "0")
+            if (@HttpContext.Current.Session["PermitirPropuesta"].ToString() == "1")
             {
 
                 <li class="nav-item">

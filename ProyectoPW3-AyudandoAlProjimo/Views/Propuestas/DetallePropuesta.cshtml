@@ -58,7 +58,7 @@
             <span style="color:black;font-weight:700">Contacto: </span><span style="font-size:13px">@Model.Propuesta.TelefonoContacto</span>
         </h6>
         <div class="progress mt-2" style="width:70%">
-            <div class="progress-bar bg-primary" style="width: @Model.porcentajePositivo%;">
+            <div class="progress-bar bg-info" style="width: @Model.porcentajePositivo%;">
                 <b>@Model.porcentajePositivo%</b>
             </div>
 
@@ -103,7 +103,7 @@
                 if (Model.Propuesta.IdUsuarioCreador != Model.idLogeado)
                 {
                     <div class="text-center mt-1 mb-5">
-                        <a href="~/Donaciones/RealizarDonacion/@Model.Propuesta.IdPropuesta" class="btn btn-primary" style="width:40%">Donar <i class="fas fa-angle-double-right"></i></a>
+                        <a href="~/Donaciones/RealizarDonacion/@Model.Propuesta.IdPropuesta" class="btn btn-info" style="width:40%">Donar</a>
                     </div>
                 }
             }
@@ -112,7 +112,7 @@
 
     @if (Model.Propuesta.TipoDonacion == 2)
     {
-        <div class="col-sm-12 mt-5">
+        <div class="col-sm-12 mt-5 ">
 
             <table class="table table1 table-striped">
 
@@ -189,7 +189,7 @@
             @if (Model.Propuesta.IdUsuarioCreador != Model.idLogeado)
             {
             <div class="text-center mt-1 mb-5">
-                <a href="~/Donaciones/RealizarDonacion/@Model.Propuesta.IdPropuesta" class="btn btn-primary" style="width:40%">Donar</a>
+                <a href="~/Donaciones/RealizarDonacion/@Model.Propuesta.IdPropuesta" class="btn btn-info" style="width:40%">Donar</a>
             </div>
             }
         </div>
@@ -230,7 +230,7 @@
                 if (Model.Propuesta.IdUsuarioCreador != Model.idLogeado)
                 {
                     <div class="text-center mt-1 mb-5">
-                        <a href="~/Donaciones/RealizarDonacion/@Model.Propuesta.IdPropuesta" class="btn btn-primary" style="width:40%">Donar</a>
+                        <a href="~/Donaciones/RealizarDonacion/@Model.Propuesta.IdPropuesta" class="btn btn-info" style="width:40%">Donar</a>
                     </div>
                 }
             }

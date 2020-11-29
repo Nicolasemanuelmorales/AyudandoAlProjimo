@@ -12,12 +12,15 @@
             <div class="card bg-light shadow-sm">
                 <img class="card-img-top mt-3" style="width:90%;height:200px; margin:0 auto;" src="~/Content/img/@a.foto" alt="Card image cap">
                 <div class="mt-2 pl-1 pr-1" style="height:45px;">
-                    <h5 class="card-title pb-3 text-center" style="font-size:18px">@a.nombre</h5>
+                    <h6 class="card-title pb-3 text-center" style="font-size:17px; color:black">@a.nombre</h6>
                 </div>
                 <div class="card-body">
-                    <div class=" mb-1 card-text" style="font-weight: 700;font-size:15px">@a.usuario</div>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" style="width: @a.porcentajePositivo%;">
+                    <div>
+                        <div class=" mb-1  text-info" style="font-size:14px; float:left">@a.usuario</div>
+                        <div class=" mt-1  text-info" style="font-size: 11px; float:right">@a.fechaFin.ToString("MM/dd/yyyy")</div>
+                    </div>
+                    <div class="progress" style="width:100%">
+                        <div class="progress-bar bg-info" style="width: @a.porcentajePositivo%;">
                             <b>@a.porcentajePositivo%</b>
                         </div>
 
@@ -25,15 +28,14 @@
                             <b>@a.porcentajeNegativo%</b>
                         </div>
                     </div>
-                    <div class=" mb-1 card-text float-left mt-3" style="font-size: 13px;font-weight:700">@a.fechaFin.ToString("MM/dd/yyyy")</div>
                     @if (@HttpContext.Current.Session["usuario"] != null)
                     {
-                        <a href="~/Propuestas/DetallePropuesta/@a.idPropuesta" class="mt-2 btn btn-sm btn-primary float-right">Detalle <i class="fas fa-angle-double-right"></i></a>
+                        <a href="~/Propuestas/DetallePropuesta/@a.idPropuesta" class="mt-2 btn btn-sm btn-primary float-right">Detalle</a>
                     }
                     else
 
                     {
-                        <a href="~/Login/Login/@a.idPropuesta" class="mt-2 btn btn-sm btn-primary float-right">Detalle <i class="fas fa-angle-double-right"></i></a>
+                        <a href="~/Login/Login/@a.idPropuesta" class="mt-2 btn btn-sm btn-primary float-right">Detalle</a>
                     }
                 </div>
             </div>

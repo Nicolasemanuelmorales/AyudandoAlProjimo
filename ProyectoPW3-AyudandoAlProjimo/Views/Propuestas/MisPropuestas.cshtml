@@ -4,9 +4,9 @@
     Layout = "~/Views/Shared/PropuestasLayout.cshtml";
 }
 
-<a href="~/Propuestas/Inactivas" class="mt-2  btn btn-sm btn-secondary float-right">Inactivas</a>
-<a href="~/Propuestas/Activas" class="mt-2 mr-2 btn btn-sm btn-secondary float-right">Activas</a>
-<a href="~/Propuestas/MisPropuestas" class="mt-2 mr-2 btn btn-sm btn-secondary float-right">Todas</a>
+<a href="~/Propuestas/Inactivas" class="mt-2  btn btn-sm btn-info float-right">Inactivas</a>
+<a href="~/Propuestas/Activas" class="mt-2 mr-2 btn btn-sm btn-info float-right">Activas</a>
+<a href="~/Propuestas/MisPropuestas" class="mt-2 mr-2 btn btn-sm btn-info float-right">Todas</a>
 <br />
 <br />
 <div class="row">
@@ -17,26 +17,28 @@
             <div class="card bg-light shadow-sm">
                 <img class="card-img-top mt-3" style="width:90%;height:200px; margin:0 auto;" src="~/Content/img/@a.foto" alt="Card image cap">
                 <div class="mt-2 pl-1 pr-1" style="height:45px;">
-                    <h5 class="card-title pb-3 text-center text-info">@a.nombre</h5>
+                    <h6 class="card-title pb-3 text-center" style="font-size:17px; color:black">@a.nombre</h6>
                 </div>
                 <div class="card-body">
-                    <div class=" mb-1 card-text text-primary">@a.usuario</div>
-                    <div class=" mb-1 card-text text-danger">@a.fechaFin.ToString("dd/MM/yyyy")</div>
-                    <div class="progress">
-                        <div class="progress-bar bg-success" style="width: @a.porcentajePositivo%;">
-                            @a.porcentajePositivo%
+                    <div>
+                        <div class=" mb-1  text-info" style="font-size:14px; float:left">@a.usuario</div>
+                        <div class=" mt-1  text-info" style="font-size: 11px; float:right">@a.fechaFin.ToString("MM/dd/yyyy")</div>
+                    </div>
+                    <div class="progress" style="width:100%">
+                        <div class="progress-bar bg-info" style="width: @a.porcentajePositivo%;">
+                            <b>@a.porcentajePositivo</b>
                         </div>
 
-                        <div class="progress-bar bg-danger" style="width:@a.porcentajeNegativo%;">
-                            @a.porcentajeNegativo%
+                        <div class="progress-bar bg-gradient-light" style="width:@a.porcentajeNegativo%;color:#6d6d6d">
+                            <b>@a.porcentajeNegativo%</b>
                         </div>
                     </div>
                     @if (a.fechaFin > DateTime.Now)
                     {
-                        <a href="~/Propuestas/Modificar/@a.idPropuesta" class="mt-2 btn btn-sm btn-success float-left"><i class="fas fa-angle-double-left"></i> Editar</a>
+                        <a href="~/Propuestas/Modificar/@a.idPropuesta" class="mt-2 btn btn-sm btn-info float-left">Editar</a>
                     }
 
-                    <a href="~/Propuestas/DetallePropuesta/@a.idPropuesta" class="mt-2 btn btn-sm btn-primary float-right">Detalle <i class="fas fa-angle-double-right"></i></a>
+                    <a href="~/Propuestas/DetallePropuesta/@a.idPropuesta" class="mt-2 btn btn-sm btn-primary float-right">Detalle</a>
                 </div>
             </div>
         </div>
