@@ -23,7 +23,7 @@
 </head>
 <!-- Custom styles for this template-->
 
-<body id="page-top">
+<body id="page-top" onload="myFunction()">
     <!-- Page Wrapper -->
     <div id="wrapper">
         <!-- Sidebar -->
@@ -171,7 +171,15 @@
         </div>
     </div>
 
+<script>
+    function myFunction() {
+        var w = window.outerWidth;
 
+        if (w < 768) {
+            var h = document.getElementById("sidebarToggleTop").click();
+        }
+    }
+</script>
     @Scripts.Render("~/bundles/js")
 </body>
 
