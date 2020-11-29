@@ -3,24 +3,25 @@
     ViewBag.Title = "MiHistorialDonaciones";
 }
 
-<h2>MiHistorialDonaciones</h2>
+<h2 style="font-weight:600">Historial De Donaciones</h2>
 
-<table class="table">
-    <thead>
-        <tr class="text-center">
-
-            <th scope="col">Fecha de Donacion</th>
-            <th scope="col">Nombre</th>
-            <th scope="col">Tipo de Donacion</th>
-            <th scope="col">Estado</th>
-            <th scope="col">Total Recaudado</th>
-            <th scope="col">Mi Donacion</th>
-            <th scope="col">Detalle Propuesta</th>
-        </tr>
-    </thead>
-    <tbody id="mostrarContenido">
-    </tbody>
-</table>
+<div class="table-responsive" style="padding: 10px;padding-top: 30px;border: 1px solid #e3e6f0;background:#fff;font-size:13px">
+    <table class="table table-striped" style="border-top:none!important">
+        <thead>
+            <tr class="text-center" style="border:none!important; ">
+                <th scope="col">Fecha de Donacion</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Tipo de Donacion</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Total Recaudado</th>
+                <th scope="col">Mi Donacion</th>
+                <th scope="col">Detalle Propuesta</th>
+            </tr>
+        </thead>
+        <tbody style="border-top: 1px solid #e3e6f0;" id="mostrarContenido">
+        </tbody>
+    </table>
+</div>
 <script>
     $(document).ready(
         function () {
